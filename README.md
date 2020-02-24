@@ -1,5 +1,5 @@
 ## Supported tags and respective Dockerfile links
-- [10.17, latest](https://gitlab.com/danitetus/mongodump)
+- [v20191114-946-g7d7eb93bb6, latest](https://gitlab.com/danitetus/mongodump/-/tree/v20191114-946-g7d7eb93bb6)
 
 ## Quick reference
 
