@@ -11,7 +11,7 @@
 ### **Dump database to volume**
 In this example we are going to backup a database to a volume. When you map the /dump volume this image deletes all dumps of this database older than 30 days.
 ```
-docker run --rm --name mysqdump \
+docker run --rm --name mongodump \
 	-e DB_HOST=<IP or host> \
 	-e DB_USER=<username> \
 	-e DB_PASS=<password> \
@@ -23,7 +23,7 @@ docker run --rm --name mysqdump \
 ### **Dump database to ftp**
 
 ```
-docker run --rm --name mysqdump \
+docker run --rm --name mongodump \
 	-e DB_HOST=<IP or host> \
 	-e DB_USER=<username> \
 	-e DB_PASS=<password> \
